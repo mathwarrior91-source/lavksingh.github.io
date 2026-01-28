@@ -91,3 +91,44 @@ body {
 .profile-links a:hover img {
     opacity: 0.8;           /* optional: slight fade on hover */
 }
+/* Menu icons styling */
+.menu-icon {
+    width: auto;
+    height: 24px;               /* Adjust size to fit your menu height */
+    vertical-align: middle;
+    margin-right: 10px;         /* Space between icon and text */
+    border-radius: 3px;         /* Optional: slight rounding */
+}
+
+/* Make menu items with icons look nice */
+.menu li a {
+    display: flex;              /* Align icon + text horizontally */
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;                /* Adjust to your theme */
+    transition: background 0.2s;
+}
+
+.menu li a:hover {
+    background: #f0f0f0;        /* Hover highlight */
+}
+
+/* Optional: Separator or title for profiles section */
+.profiles-section {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ddd;  /* Visual separation */
+}
+
+.profiles-title {
+    font-weight: bold;
+    color: #555;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    pointer-events: none;       /* Not clickable */
+}
+
+/* If sidebar is narrow, reduce padding/margins as needed */
+.sidebar {
+    width: 220px;               /* Example width – adjust if yours is different */
+}
